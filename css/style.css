@@ -1,0 +1,468 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.web {
+    display: flex;
+    max-width: 1440px;
+    gap: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.web ul {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.web a {
+    text-decoration: none;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+}
+.icon {
+    display: inline-block;
+    max-width: 1128px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    justify-content:space-around;
+    gap: 24px;
+}
+.simge li { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 264px;
+    height: 112px;
+    background-color: rgba(244, 244, 253, 1);
+    border-color: rgba(142, 143, 153, 1);
+}
+
+.section.title{
+    display: block;
+    object-fit: cover;
+    width: 1440px;
+    height: 600px;
+    background-size: cover;
+    background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    linear-gradient(to right, rgba(46, 47, 66, 0.7)),
+    url("../images/icons.svg/people-office\ 1.svg") ;
+    background-size: 1463px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.efekt {
+    color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 496px;
+    font-weight: 700;
+    line-height: 60px;
+    font-style: normal;
+    font-size: 56px;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #2E2F42;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.logo span {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+button {
+
+    margin: 0 auto;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 28px;
+    transform: translate(0, -120px);
+    
+}
+
+button:hover,
+button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.strategy {
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    max-width: 1128px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+}
+
+.strategy ul {
+    display: flex;
+    text-align:inherit;
+    justify-content:space-between;
+    gap: 12px;
+}
+
+.strategy ul li {
+    width: 264px;
+}
+
+.strategy ul p {
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color:#2E2F42;
+}
+
+.section-title p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bilgiler .link {
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.link a:hover,
+.link a:focus {
+    color: #404BBF;
+    cursor: pointer;
+}
+
+.address a:hover,
+.address a:focus {
+    color: #404BBF;
+    cursor: pointer;
+}
+
+.adres .address {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.logo2 {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #F4F4FD;
+    text-transform: uppercase;
+}
+
+.logo2 span {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.arka-plan {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: rgba(244, 244, 253, 1);
+    
+}
+.arka-plan p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.arka-plan ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    
+}
+.arka-plan li {
+    border-width: 1px 1px 28px 1px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 1);
+    border-color:rgba(255, 255, 255, 1);
+    box-shadow: -12px 10px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 0px 6px 9px rgba(0, 0, 0, 0.12),
+    0px 0px 7px 9px rgba(0, 0, 0, 0.14);
+}
+
+.arka-plan h2 {
+    display: block;
+    padding-bottom: 72px;
+}
+
+
+.simge-kontrol {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(8px);
+    gap: 24px;
+    background-position: center center;
+    margin: 0 auto;
+    width: 232px;
+    cursor: pointer;
+    color: #4d5ae5;
+    border-radius: 50%;
+}
+.simge-kontrol .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f4f4fd;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+.simge-kontrol .icon:hover {
+    background-color:royalblue;
+    color: blue;
+}
+.simge-kontrol .icon:hover use,
+.simge-kontrol .icon:hover path {
+    fill: #fff;
+}
+
+
+.baslik2 {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.font {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.eleman {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.eleman ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content:center;
+}
+
+.eleman li {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid; 
+    border-color: #E7E9FC;
+    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1) 75%, rgba(231, 233, 252, 1) 75%);
+    border-image-slice: 1;
+}
+
+.eleman h2 {
+    display: block;
+    padding-bottom: 72px;
+}
+.eleman p {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding-top: 8px;
+    margin-left: 16px;
+}
+.eleman ul li {
+    position: relative;
+    overflow: hidden;
+}
+.eleman ul li:hover {
+    box-shadow: -10px 12px 9px -1px rgba(0, 0, 0, 0.4),
+            0px 0px 9px 12px rgba(0, 0, 0, 0.14),
+            1px 0px 7px 9px rgba(0, 0, 0, 0.16);
+}
+
+li:hover .overlay {
+    transform: translateY(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.yazitipi {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 32px;
+    margin-left: 16px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+}
+
+.finish {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-style: normal;
+    display: block;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.finish a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 19px;
+    font-style: normal;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 16px;
+    text-decoration: none;
+}
+
+.simge-kontrol ul li {
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 208px;
+    gap: 16px;
+    transform: translate(-55%, -290%);
+}
+.simge-kontrol ul li .icon {
+    background-color: #2E2F42;
+    
+}
+.simge-kontrol ul li .icon:hover {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-control {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 19px;
+    font-style: normal;
+    flex-basis: 96px;
+    text-align: center;
+    justify-content: space-between;
+    transform: translate(320%, -430%);
+}
+.overlay {
+    padding: 8px;
+    background-color: #3f51b5;
+    color: #fff;
+    font-family: sans-serif;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
