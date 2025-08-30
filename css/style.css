@@ -28,7 +28,7 @@ img {
     display: flex;
     gap: 40px;
     justify-content: space-between;
-    
+
 }
 
 .menu-xl .link {
@@ -92,6 +92,7 @@ img {
 .web a {
     text-decoration: none;
 }
+
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -101,16 +102,18 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
+
 .icon {
     display: inline-block;
     max-width: 1128px;
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-    justify-content:space-around;
+    justify-content: space-around;
     gap: 24px;
 }
-.simge li { 
+
+.simge li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,16 +124,16 @@ body {
     border-color: rgba(142, 143, 153, 1);
 }
 
-.section.title{
+.section.title {
     display: block;
     object-fit: cover;
     width: 1440px;
     height: 600px;
     background-size: cover;
     background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
-    linear-gradient(to right, rgba(46, 47, 66, 0.7)),
-    url("../images/icons.svg/people-office\ 1.svg") ;
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+        linear-gradient(to right, rgba(46, 47, 66, 0.7)),
+        url("../images/people-office.png");
     background-size: 1463px;
     background-repeat: no-repeat;
     text-decoration: none;
@@ -186,7 +189,7 @@ button {
     position: relative;
     top: 28px;
     transform: translate(0, -120px);
-    
+
 }
 
 button:hover,
@@ -211,8 +214,8 @@ button:focus {
 
 .strategy ul {
     display: flex;
-    text-align:inherit;
-    justify-content:space-between;
+    text-align: inherit;
+    justify-content: space-between;
     gap: 12px;
 }
 
@@ -225,7 +228,7 @@ button:focus {
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 16px;
-    color:#2E2F42;
+    color: #2E2F42;
 }
 
 .section-title p {
@@ -263,8 +266,8 @@ button:focus {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: rgba(244, 244, 253, 1);
-    
 }
+
 .arka-plan p {
     font-size: 16px;
     line-height: 1.5;
@@ -272,23 +275,24 @@ button:focus {
     font-weight: 400;
     font-family: "Roboto", sans-serif;
 }
+
 .arka-plan ul {
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 24px;
-    
+    padding-bottom: 38px;
+
 }
+
 .arka-plan li {
-    border-width: 1px 1px 28px 1px;
-    border-style: solid;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     background-color: rgba(255, 255, 255, 1);
-    border-color:rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 0px 1px rgba(0, 0, 0, 0.12),
-    0px 0px 0px 0px rgba(0, 0, 0, 0.14);
+        0px 1px 0px 1px rgba(0, 0, 0, 0.12),
+        0px 0px 0px 0px rgba(0, 0, 0, 0.14);
 }
 
 .arka-plan h2 {
@@ -297,62 +301,34 @@ button:focus {
 }
 
 
-.simge-kontrol {
+.sosyal-medya-xl {
     display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: translateY(8px);
     gap: 24px;
-    background-position: center center;
-    margin: 0 auto;
-    width: 232px;
-    cursor: pointer;
-    color: #4d5ae5;
-    border-radius: 50%;
-}
-.simge-kontrol-1 {
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: translateY(8px);
-    gap: 24px;
-    background-position: center center;
-    margin: 0 auto;
-    width: 232px;
-    cursor: pointer;
-    color: #4d5ae5;
-    border-radius: 50%;
-}
-.simge-kontrol .icon {
-    width: 40px;
-    height: 40px;
-    background-color: #f4f4fd;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    border-radius: 50%;
 }
 
-.simge-kontrol .icon:hover use,
-.simge-kontrol .icon:hover path {
-    fill: #fff;
-    color: #404BBF;
-}
-.simge-kontrol-1 .icon {
+.sosyal-medya-xl .sosyal-medya-item-xs {
+    list-style-type: none;
     width: 40px;
     height: 40px;
-    background-color: #f4f4fd;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
+    transform: translateY(15%);
 }
-.simge-kontrol-1 .icon:hover use,
-.simge-kontrol-1 .icon:hover path {
-    fill: #fff;
-    color:#31D0AA;
+
+.sosyal-medya-item-xs:hover {
+    background-color: #404BBF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sosyal-medya-xl .sosyal-medya-item-xs .icon-instagram,
+.sosyal-medya-xl .sosyal-medya-item-xs .icon-twitter,
+.sosyal-medya-xl .sosyal-medya-item-xs .icon-facebook,
+.sosyal-medya-xl .sosyal-medya-item-xs .icon-linkedin {
+    width: 16px;
+    height: 16px;
 }
 
 .baslik2 {
@@ -391,12 +367,12 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    justify-content:center;
+    justify-content: center;
 }
 
 .eleman li {
     border-width: 0px 1px 1px 1px;
-    border-style: solid; 
+    border-style: solid;
     border-color: #E7E9FC;
     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1) 75%, rgba(231, 233, 252, 1) 75%);
     border-image-slice: 1;
@@ -406,6 +382,7 @@ button:focus {
     display: block;
     padding-bottom: 72px;
 }
+
 .eleman p {
     color: #434455;
     font-family: "Roboto", sans-serif;
@@ -416,18 +393,21 @@ button:focus {
     padding-top: 8px;
     margin-left: 16px;
 }
+
 .eleman ul li {
     position: relative;
     overflow: hidden;
 }
+
 .eleman ul li:hover {
     box-shadow: 0px 0px 0px -1px rgba(46, 47, 66, 0.08),
-    0px 2px 1px 0.5px rgba(46, 47, 66, 0.16),
-    0px 2px 1px 0.5px rgba(46, 47, 66, 0.08);
-    
+        0px 2px 1px 0.5px rgba(46, 47, 66, 0.16),
+        0px 2px 1px 0.5px rgba(46, 47, 66, 0.08);
+
 }
+
 .overlay {
-    
+
     padding: 8px;
     background-color: #4D5AE5;
     color: #fff;
@@ -452,7 +432,7 @@ button:focus {
 li:hover .overlay {
     height: 76.5%;
     transform: translateY(0%);
-    transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .yazitipi {
@@ -506,7 +486,7 @@ footer {
 
 .simge-kontrol ul li {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -515,10 +495,12 @@ footer {
     gap: 16px;
     transform: translate(-55%, -290%);
 }
+
 .simge-kontrol ul li .icon {
     background-color: #2E2F42;
-    
+
 }
+
 .simge-kontrol-1 ul li {
     display: flex;
     justify-content: space-around;
@@ -556,4 +538,32 @@ footer {
 .icon-astronaut {
     width: 64px;
     height: 64px;
+}
+
+.sosyal-medya {
+    display: flex;
+    gap: 24px;
+}
+.sosyal-medya .sosyal-medya-item {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translate(1050%, -260%);
+}
+.sosyal-medya-item:hover {
+    background-color: #31D0AA;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sosyal-medya .sosyal-medya-item .icon-instagram,
+.sosyal-medya .sosyal-medya-item .icon-twitter,
+.sosyal-medya .sosyal-medya-item .icon-facebook,
+.sosyal-medya .sosyal-medya-item .icon-linkedin {
+    width: 24px;
+    height: 24px;
 }
