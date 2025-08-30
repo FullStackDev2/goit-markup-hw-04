@@ -246,6 +246,7 @@ button:focus {
     font-weight: 700;
     color: #F4F4FD;
     text-transform: uppercase;
+
 }
 
 .logo2 span {
@@ -473,15 +474,19 @@ footer {
 
 .finish a {
     font-family: "Roboto", sans-serif;
+    display: inline-block;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 2px;
     font-size: 19px;
     font-style: normal;
     text-transform: uppercase;
-    display: block;
     padding-bottom: 16px;
     text-decoration: none;
+
+}
+.finish p {
+    display: flex;
 }
 
 .simge-kontrol ul li {
